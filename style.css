@@ -22,6 +22,7 @@ aside {
     grid-column: 1;
     grid-row: 1 / 5;
     border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1em;
 }
 
 header,
@@ -38,6 +39,7 @@ header {
 
 main {
     grid-row: 2;
+    padding: 1em;
 }
 
 footer {
