@@ -1,3 +1,5 @@
+@import url('/src/theme/colors.css');
+
 :root {
     --aside-width: 300px;
 }
@@ -46,4 +48,32 @@ footer {
     grid-row: 3;
     text-align: center;
     margin-block: 1em;
+}
+
+.color-display {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    border-radius: 0.25em;
+    margin-inline-start: 1em;
+}
+
+#basic-colors .content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#basic-colors .content .item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#palette-colors .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#palette-colors .content .item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
