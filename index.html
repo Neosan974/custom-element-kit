@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom elements kit</title>
+  <script type="module" src="/main.js" defer></script>
+</head>
+
+<body>
+  <aside>
+    <a id="title" href="#">Custom elements kit</a>
+    <nav>
+      Categories
+      <ul id="categories">
+        <li id="components">
+          Components
+          <ul id="list-of-components">
+            <li id="tabs"><a href="#">Tabs</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div>Copyright</div>
+  </aside>
+  <header>Welcome in the Custom Elements Kit Doc</header>
+  <main>Here is the main page of the doc</main>
+  <footer>Here is the footer, what can we set here ?</footer>
+</body>
+
 </html>
